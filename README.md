@@ -1,5 +1,7 @@
 # FaultLine — chaos engineering for LLM agent tool loops
 
+[![tests](https://github.com/lukatkem/faultline/actions/workflows/tests.yml/badge.svg)](https://github.com/lukatkem/faultline/actions/workflows/tests.yml) ![tests](https://img.shields.io/badge/tests-20_passing-2ea44f)
+
 **Your agent works in staging. FaultLine finds out what it does when the world breaks.**
 Injects timeouts, malformed JSON, truncated responses, empty bodies, and
 plausible-but-wrong data into an agent's tool layer — then classifies every run:
