@@ -11,7 +11,8 @@ plausible-but-wrong data into an agent's tool layer — then classifies every ru
 ## Quickstart
 
 ```bash
-python -m pytest -q          # 20 tests
+pip install pytest git+https://github.com/lukatkem/agentcore.git
+python -m pytest -q          # 20 tests (the sibling agent runtime is the subject)
 python -m faultline demo     # a real agentcore agent under injected faults
 ```
 
